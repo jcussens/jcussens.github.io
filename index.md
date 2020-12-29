@@ -253,7 +253,7 @@ Inductive Logic Programming and Mercury</i> (MSc by Research)
 	software for exact Bayesian network learning (C / SCIP
 	version) </a></li>
 
-    <li><a href="href=https://bitbucket.org/jamescussens/gobnilp">GOBNILP
+    <li><a href="https://bitbucket.org/jamescussens/pygobnilp">GOBNILP
             software for exact Bayesian network learning (Python /
             Gurobi version )</a></li>
 	
@@ -792,7 +792,7 @@ Big Data</cite></a></li>
     Administration</h4>
 
     <ul>
-      <li>Chair of the Board of Studies</li>
+      <li>UG 1st Year Senior Tutor</li>
     </ul>
 
     <hr />
