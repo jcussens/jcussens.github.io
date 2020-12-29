@@ -1,19 +1,5 @@
-<?xml version="1.0"  encoding="utf-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta name="generator" content="HTML Tidy, see www.w3.org" />
-    <link rel="stylesheet" type="text/css" href="jc.css" />
-    <title>James Cussens</title>
-  </head>
 
-  <body>
-    <h2>
-    <img src="smalljames.jpg" alt="Picture of James Cussens"
-    height="83" width="69"/>
-
-    James Cussens</h2>
+    <h2>James Cussens</h2>
 
     <p>
 
@@ -37,10 +23,6 @@
       <a href="#Personal_history">[Personal history]</a>
 
       <a href="#Contact_information">[Contact information]</a>
-
-      <a href="http://www.cs.york.ac.uk">[Dept home page]</a>
-
-       <a href="http://www.cs.york.ac.uk/aig/index.php">[Artificial Intelligence at York]</a>
 
       </p>
       
@@ -66,14 +48,12 @@ December 1703. Quoted in: Cussens, <cite>Probability and Statistics</cite> in An
 
    <!--  <p> -->
 
-<!-- <a href="research/phd-in-ai.html">I'm looking for PhD students, click -->
-<!-- here!</a></p> -->
 <p>
-     <a href="http://scholar.google.co.uk/citations?user=OEFkOR0AAAAJ">
-       Google scholar profile</a></p> <p><a href="https://pure.york.ac.uk/portal/en/researchers/james-cussens(9bd679c8-c8b1-4474-a689-86ebf04ee0c3).html">University of York research
-       profile</a> </p>
+     <a href="http://scholar.google.co.uk/citations?user=OEFkOR0AAAAJ"> 
+       Google scholar profile</a></p>
 
-    <p><a href="http://www.cs.york.ac.uk/aig/sw/gobnilp">GOBNILP software for exact Bayesian network learning</a></p>
+    <p><a href="https://research-information.bris.ac.uk/en/persons/james-cussens">University of Bristol research
+       profile</a> </p>
 
 
     <h5>Recent papers</h5>
@@ -138,63 +118,6 @@ models</a>. <cite>International Journal of Approximate Reasoning</cite>, 88:259-
 	version</a>)
 	</li>
 	
-<!-- <li> -->
-<!-- Marko Raseta, Jon Pitchford, James Cussens and John Doe. <a href="https://doi.org/10.1016/j.mbs.2017.05.005">Integrated testing strategies can be optimal for chemical risk classification</a>. Mathematical Biosciences -->
-<!-- 290:1-8, 2017. -->
-<!-- </li> -->
-
-
-<!-- 	<li> -->
-<!-- 	Nicos Angelopoulos and James Cussens. <a href="http://authors.elsevier.com/sd/article/S0888613X16301232">Distributional Logic -->
-<!-- Programming for Bayesian Knowledge Representation</a>. <cite>International Journal of Approximate Reasoning</cite>, 80:52-66, 2017. -->
-<!-- 	</li> -->
-
-<!-- 	<li> -->
-<!-- 	Milan Studený and James Cussens. <a href="http://jmlr.org/proceedings/papers/v52/studeny16.pdf">The Chordal Graph Polytope for Learning -->
-<!-- 	Decomposable Models</a>. <cite>Proc. PGM 2016 (JMLR: Workshop and Conference Proceedings vol 52), 499-510, 2016</cite> -->
-<!-- 	</li> -->
-
-
-
-<!-- <li> -->
-<!-- Waleed Alsanie and James Cussens. <a href="http://dx.doi.org/10.1016/j.ijar.2015.06.003">Learning Failure-free PRISM Programs</a>. -->
-<!--   <cite>International Journal of Approximate Reasoning</cite>, -->
-<!-- 67:73-110, 2015. -->
-<!-- </li> -->
-
-<!-- <li> -->
-<!-- Garo Panikian, James Cussens and Jonathan W. Pitchford.  -->
-<!--  <a href="http://www.nrcresearchpress.com/doi/abs/10.1139/cjfas-2014-0549">Identification and quantification of heteroscedasticity in -->
-<!-- stock-recruitment relationships</a>. <cite>Canadian Journal of -->
-<!-- Fisheries and Aquatic Sciences</cite>, 8(72):1259-1271, 2015. -->
-<!-- </li> -->
-
-<!-- 	<li>Chris J. Oates, Jim Q. Smith, Sach Mukherjee and James -->
-<!-- 	Cussens. <a href="http://rdcu.be/6rew">Exact Estimation of -->
-<!-- 	Multiple Directed Acyclic Graphs</a>. <cite>Statistics and -->
-<!-- 	Computing</cite>. 1-15, 2015. (Also <a href="http://arxiv.org/pdf/1404.1238v3">Arkiv 1404.1238</a>, -->
-<!-- 	April 2014.) -->
-<!-- 	</li> -->
-
-
-<!-- 	<li>Mark Bartlett and James -->
-<!-- 	Cussens. <a href="http://dx.doi.org/10.1016/j.artint.2015.03.003">Integer Linear Programming for the Bayesian Network -->
-<!-- 	Structure Learning Problem</a>. <cite>Artificial Intelligence</cite> 24:258-271, March 2017. -->
-<!-- 	(<a href="http://www.cs.york.ac.uk/aig/papers/Bartlett_Cussens_2015.pdf">Preprint</a>) -->
-<!-- 	</li> -->
-
-<!-- <li>Lilia Costa, Jim -->
-<!-- 	  Smith, Thomas Nichols, James Cussens, Eugene P. Duff and -->
-<!-- 	  Tamar R. Makin. <a href="https://projecteuclid.org/euclid.ba/1422884981"> -->
-<!-- Searching Multiregression Dynamic Models of Resting-State fMRI -->
-<!-- 	  Networks using Integer Programming</a>. <cite>Bayesian -->
-<!-- 	  Analysis</cite> Vol. 10, No. 2, 441-478, 2015. -->
-<!-- </li> -->
-
-      </ul>
-
-    <!-- <h5><a href="research/pub_chron.html">Catalogue of older  -->
-    <!--     papers</a>. For more recent work go <a href="https://pure.york.ac.uk/portal/en/researchers/james-cussens(9bd679c8-c8b1-4474-a689-86ebf04ee0c3).html">here</a>.</h5> -->
 
 
     <h5>Recent talks</h5>
@@ -243,72 +166,6 @@ Integer Linear Programming and Evaluations</a>, UAI
 	  href="http://www.cs.york.ac.uk/aig/talks/cussens_2015b.pdf">Leibniz's
 	  new kind of Logic</a>, Free University of Amsterdam, 6 May 2015.  </li>
 
-	<!-- <li> <a -->
-	<!--   href="http://www.cs.york.ac.uk/aig/talks/cussens_2015a.pdf"> -->
-	<!--   Integer programming for the MAP problem in Markov random -->
-	<!--   fields</a>, University of Helsinki, 17 April 2015.  </li> -->
-
-
-	<!-- <li> <a -->
-	<!--   href="http://www.cs.york.ac.uk/aig/talks/cussens_2015.pdf"> -->
-	<!--   Handling first-order linear constraints with SCIP</a>, KU -->
-	<!--   Leuven, 16 February 2015. <a href="research/smoke.zpl">smoke.zpl</a>, <a href="research/smoke.foz">smoke.foz</a>, <a href="research/smoke_fo.zpl">smoke_fo.zpl</a>, <a href="research/smoke.out">smoke.out</a>.  -->
-	<!--    </li> -->
-
-	<!-- <li> <a -->
-	<!--   href="http://www.cs.york.ac.uk/aig/talks/cussens_2013e.pdf"> -->
-	<!--   Bayesian Network Model Selection using Integer -->
-	<!--   Programming</a>, Dept of Statistics, University of Leeds, 4 -->
-	<!--   October 2013.  </li> -->
-
-
-	<!-- <li> <a -->
-	<!--   href="http://www.cs.york.ac.uk/aig/talks/cussens_2013d.pdf"> -->
-	<!--   Integer Programming for Bayesian Network Structure Learning</a>, Czech Academy of Sciences, Prague, 2 September 2013. -->
-	<!--   </li> -->
-
-
-<!-- 	<li> <a -->
-<!-- 	  href="http://www.cs.york.ac.uk/aig/talks/cussens_2013c.pdf"> -->
-<!-- 	  Advances in Bayesian Network Learning using Integer -->
-<!-- 	  Programming </a>, UAI 13, Bellevue, USA, 12 July 2013. -->
-<!-- 	  </li> -->
-
-<!-- 	<li> -->
-<!-- 	  <a -->
-<!-- 	  href="http://www.cs.york.ac.uk/aig/talks/cussens_2013b.pdf"> -->
-<!-- Integer Programming for Bayesian Network Structure Learning </a>, -->
-<!-- 	Helsinki Institute for Information Technology, 4 April 2013. -->
-<!-- 	</li> -->
-
-<!-- 	<li> -->
-<!-- 	  <a href="http://www.cs.york.ac.uk/aig/talks/cussens_2013a.pdf"> -->
-<!-- 	Integrating Constraint Programming and Integer Programming -->
-<!-- 	  with SCIP</a>,  -->
-<!-- 	KU Leuven, 25 February 2013. -->
-<!-- 	</li> -->
-
-<!-- 	<li> -->
-<!-- 	  <a href="http://www.cs.york.ac.uk/aig/talks/cussens_2012b.pdf"> -->
-<!-- 	Bayesian network learning with SCIP: -->
-<!-- model selection and model averaging</a>, <a -->
-<!-- 	href="http://www3.mathematik.tu-darmstadt.de/ags/optimierung/events/activities/scip-workshop-2012.html">SCIP workshop</a>, -->
-<!-- 	Darmstadt, 8 October 2012. -->
-<!-- 	</li> -->
-<!-- 	<li> -->
-<!-- 	  <a href="http://www.cs.york.ac.uk/aig/talks/cussens_2012a.pdf"> -->
-<!-- 	Model averaging for graphical models by repeated optimal model -->
-<!-- 	search</a>, <a href="http://www.sustain.bris.ac.uk/ws-structure/index.html"> -->
-<!-- 	SuSTain workshop on Structure and uncertainty</a>, Bristol, 26 -->
-<!-- 	September 2012. -->
-<!-- 	</li> -->
-<!-- 	<li> -->
-<!-- 	  <a href="http://www.cs.york.ac.uk/aig/talks/cussens_2012.pdf"> -->
-<!-- 	Bayesian network structure learning using integer linear -->
-<!-- 	programming: results and prospects</a>, <a -->
-<!-- 	href="http://www.cosa-workshop.de">COSA Workshop 2012</a>, -->
-<!-- 	Zentrum Mathematik, TU Munich, 6 September 2012. -->
-<!-- 	</li> -->
     </ul>
 
 
@@ -319,56 +176,18 @@ Integer Linear Programming and Evaluations</a>, UAI
 	<a id="gradstudy">PhD supervision</a>
       </h4>
 
+      </ul>
 
-      <h5>Current PhD students</h5>
+      <h5>Former students</h5>
 
-    <ul>
-
-      <li>
-	Zongyu Yin
-      </li>
-      
-      <li>
-	Andrea Bassich (jointly with Simos Gerasimou)
-      </li>
-
-      <li>
-	John Burden (jointly with Victorial Hodge)
-      </li>
-
-      <li>
-	Felix Ulrich-Oltean (jointly with Peter Nightingale)
-      </li>
-
-      <li>
-	Yajie Gu
-      </li>
-
-      <li>
-	Lizzie Vialls
-      </li>
-      
-    <li>
-      Sorush Lajevardi
-    </li>
-
-      
-      <li>
-	Teny Handhayani
-      </li>
+      <ul>
 
 
       <li>
 	Durdane Kocacoban
       </li>
-
-
-
-      </ul>
-      <h5>Former students</h5>
-
-      <ul>
-
+	  
+	
       <li>
 	Mark Balmer (MSc by Research)
       </li>
@@ -425,55 +244,15 @@ Inductive Logic Programming and Mercury</i> (MSc by Research)
 
     <ul>
 
-    <li><a href="http://www.cs.york.ac.uk/aig/sw/gobnilp">GOBNILP software for exact Bayesian network learning</a></li>
+    <li><a href="https://bitbucket.org/jamescussens/gobnilp">GOBNILP
+	software for exact Bayesian network learning (C / SCIP
+	version) </a></li>
 
+    <li><a href="href=https://bitbucket.org/jamescussens/gobnilp">GOBNILP
+            software for exact Bayesian network learning (Python /
+            Gurobi version )</a></li>
+	
 
-	<li><a href="http://www-module.cs.york.ac.uk/archive/agm/gPy">gPy</a> is a collection of
-	  Python modules for manipulating discrete hierarchical models
-	  (including Bayesian nets). It was used to support the
-	  teaching of <a href="http://www-module.cs.york.ac.uk/archive/agm/">Algorithms for Graphical
-	    Models</a>. 
-	</li>
-
-      <li>The 
-      <a
-      href="http://stoics.org.uk/~nicos/sware/mcmcms/">
-      MCMCMS (Markov chain Monte Carlo over Model Structures)
-      system</a>
-
-      uses Stochastic Logic Programs (SLPs) to define priors for
-      Bayesian inference. The code was written by 
-      <a href="http://stoics.org.uk/~nicos/">Nicos Angelopoulos</a>.
-
-</li>
-
-      <li>
-      <a
-      href="http://stoics.org.uk/~nicos/sware/pepl">
-      Pepl</a>
-
-      is an implementation of the Failure-Adjusted Maximisation
-      (FAM) algorithm.This is an instance of the EM algorithm which
-      produces maximum likelihood estimates for the parameters of
-      SLPs. The code was written by <a href="http://stoics.org.uk/~nicos/">Nicos Angelopoulos</a>.
-
-	</li>
-
-	<li>
-	  Aaron Bate, a final year student in this department, has
-	  produced software for animating the construction of Prolog
-	  proof trees (the software draws a graphical representation
-	  of the proof tree). It uses Sicstus Prolog and Tcl/Tk. You can <a
-	  href="research/dppt.tgz">download the software as a gzipped
-	  tar file</a>. I have included a simple Prolog SLP
-	  interpreter which allows you to sample from a distribution
-	  over proof trees and where each proof tree determines an
-	  acyclic digraph (the structural element of a Bayesian
-	  net). See the file <tt>slp_readme</tt> in the distribution
-	  for an explanation.
-	</li>
-	  
-	  
     </ul>
 
     <hr />
@@ -531,66 +310,15 @@ Inductive Logic Programming and Mercury</i> (MSc by Research)
 
     Teaching</h4>
 
-    <p>Currently, at York:</p>
+    <p>Currently, at Bristol:</p>
 
     <ul>
 
-      <li>Fundamentals of Machine Learning (FUML)</li>			  
-
-      <li><a href="https://www.york.ac.uk/students/studying/manage/programmes/module-catalogue/module/COM00001I/2018-19">Introduction to Artificial Intelligence (ARIN)</a> (<a href="https://vle.york.ac.uk/webapps/blackboard/execute/announcement?method=search&amp;context=course&amp;course_id=_88681_1&amp;handle=cp_announcements&amp;mode=cpview">VLE site</a>)
-      </li>
-
-	
-	<li><a href="https://www.york.ac.uk/students/studying/manage/programmes/module-catalogue/module/COM00032H/2018-19">Machine Learning and Probabilistic Graphical Models (MLPG)</a> (<a href="https://vle.york.ac.uk/webapps/blackboard/execute/announcement?method=search&amp;context=course&amp;course_id=_91049_1&amp;handle=cp_announcements&amp;mode=cpview">VLE site</a>)
-      </li>
+      <li>Machine Learning</li>			  
 
 
     </ul>
 
-    <!-- <p>Externally I've done:</p> -->
-
-    <!-- <ul> -->
-    <!--   <li> -->
-    <!--   <a href="teaching/GSLT/ilp-goth.html">Day course on Inductive -->
-    <!--   Logic Programming</a> -->
-
-    <!--   (21 October 2003 &amp; 26 October 2005) for the  -->
-    <!--   <a href="http://www.gslt.hum.gu.se/">Graduate School in -->
-    <!--   Language Technology,</a> -->
-
-    <!--   Göteborg, Sweden</li> -->
-
-    <!--   <li>Symbolic learning of natural language (with Dimitar -->
-    <!--   Kazakov) at  -->
-    <!--   <a href="http://esslli2004.loria.fr/">ESSLLI-2004</a> -->
-
-    <!--   (9-21 August 2004), Nancy, France</li> -->
-    <!-- </ul> -->
-
-    <!-- <p>At York, I previously taught:</p> -->
-
-    <!-- <ul> -->
-
-    <!-- 	<li> -->
-    <!--     <a href="teaching/ban/">Bayesian Networks (BAN)</a> -->
-    <!--   </li> -->
-
-
-    <!--   <li> -->
-    <!--     <a href="file:///n/www/usr/jc/teaching/ppb/">Perl -->
-    <!--     Programming for Biologists (PPB)</a> -->
-    <!--   </li> -->
-
-    <!--   <li> -->
-    <!--   <a href="http://www-course.cs.york.ac.uk/alp">Advanced Logic -->
-    <!--   Programming (ALP)</a> -->
-    <!--   </li> -->
-
-    <!--   <li> -->
-    <!--     <a href="http://www-course.cs.york.ac.uk/ipr/">Introduction -->
-    <!--     to Pattern Recognition &amp; Neural Networks (IPR)</a> -->
-    <!--   </li> -->
-    <!-- </ul> -->
 
 
 
@@ -1072,7 +800,17 @@ Big Data</cite></a></li>
 
     <table width="100%" summary="Personal history">
         <tr>
-          <td>2001-&nbsp;</td>
+          <td>2020-&nbsp;</td>
+
+          <td>Senior Lecturer in the Artificial Intelligence Group</td>
+
+          <td>
+            <a href="http://www.bristol.ac.uk">University of Bristol</a>
+          </td>
+        </tr>
+
+	        <tr>
+          <td>2001-2020</td>
 
           <td>Senior Lecturer in the Artificial Intelligence Group</td>
 
@@ -1174,25 +912,16 @@ Big Data</cite></a></li>
             <i>Address</i>
           </td>
 
-          <td>Dept of Computer Science, University of York, York, YO10 5GE, UK </td>
+          <td>Dept of Computer Science, University of Bristol, 
+          Merchant Venturers Building, Woodland Road Bristol, BS8 1UB, UK </td>
         </tr>
-
-        <tr>
-          <td>
-            <i>Direct phone</i>
-          </td>
-
-          <td>+44 (0)1904 325371</td>
-        </tr>
-
-       
 
         <tr>
 	<td>
             <i>Email</i>
           </td>
           <td>
-              firstname.lastname AT york DOT ac DOT uk
+              firstname.lastname AT bristol DOT ac DOT uk
           </td>
         </tr>
       </tbody>
@@ -1200,13 +929,4 @@ Big Data</cite></a></li>
 
     <hr />
 
-<p> <a href="tmp/"> temporary stuff </a> </p>
-
-    <p>
-      <a href="http://validator.w3.org/check?uri=referer"><img
-          src="valid-xhtml11"
-          alt="Valid XHTML 1.1!" height="31" width="88" /></a>
-    </p>
-  </body>
-</html>
 
