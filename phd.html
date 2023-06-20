@@ -1,0 +1,132 @@
+<?xml version="1.0"  encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>PhD topics</title>
+  </head>
+  
+  <body>
+
+    <h3>Suggested PhD topics</h3>
+    
+    <hr />
+    <h2>Combinatorial optimisation in machine learning</h2>
+    <p> There is a growing interest in methods which combine solving
+combinatorial optimisation (CO) problems and machine learning. In some
+cases machine learning is used to learn the best strategies for
+to solving an NP-hard problem. In other cases, CO methods (e.g. integer
+linear programming (ILP)) are used to solve hard machine learning
+problems. In yet another combination CO solvers have been included as
+a layer in a deep learning architecture. The goal of this project is
+to explore this area further to allow further fruitful cross-fertilisation.
+ </p>
+
+    <h4>References</h4>
+    <ul>
+      <li><a href="https://sites.google.com/usc.edu/cpaior-2022/master_class">Bridging
+	  the Gap between Machine Learning and Optimization</a>
+      </li>
+            <li>Bertsimas and
+		Dunn. <a href="https://www.dynamic-ideas.com/books/machine-learning-under-a-modern-optimization-lens">
+		Machine Learning under a Modern Optimization Lens</a>,
+		Dynamic Ideas, 2019.
+      </li>
+    </ul>
+
+      <hr />
+      <h2>Learning causal models with latent variables</h2>
+
+      <img src="verma_small.jpg" alt="Verma graph"/>
+
+      
+    <p>The graph above (which is known as the <em>Verma graph</em>)
+      represents a causal model where X<sub>2</sub> is a cause of
+      X<sub>4</sub> (via X<sub>3</sub>) but both X<sub>2</sub> and
+      X<sub>4</sub> have a common cause L. If L is a <em>latent</em>
+      variable, i.e. not one observed in data, then learning such a
+      causal model is challenging, since we never get to see L! One
+      approach to this difficult learning task is <em>constraint-based
+      learning</em> where an algorithm infers the existence of latent
+      variables from patterns of conditional independence between the
+      observed variables.  </p>
+
+    <p>An alternative approach is <em>score-based learning</em> where
+    each candidate causal model (including those with latent
+    variables) has a 'score' (typically penalised log-likelihood) and
+    the task is to find a causal model with high (preferably maximal)
+    score. There has been some recent progress in score-based learning
+    for causal models with latent variables much of which has taken
+    advantage of algebraic representations of causal models (see
+      refs). In this existing work only quite small causal models have
+    been learned. The goal of this project would be develop algorithms
+    which can accurately learn larger causal models, even when there
+    are latent variables. Developing algorithms which can incorporate
+    prior knowledge would be advantageous. </p>
+
+        <h4>References</h4>
+    <ul>
+      <li>
+	Zhongyi Hu and Robin
+	Evans. <a href="https://arxiv.org/abs/2208.10436">Towards
+	standard imsets for maximal ancestral graphs</a>, March 2023.
+      </li>
+      <li>
+	Bryan Andrews, Gregory F. Cooper, Thomas S. Richardson and
+      Peter Spirtes. <a href="https://arxiv.org/abs/2207.08963">The
+	  m-connecting imset and factorization for ADMG models</a>, July 2022.
+      </li>
+      <li>Rui Chen, Sanjeeb Dash and Tian
+	Gao. <a href="http://proceedings.mlr.press/v139/chen21c/chen21c.pdf">Integer
+	Programming for Causal Structure Learning in the Presence of
+	Latent Variables</a> Proceedings of the 38th International
+	Conference on Machine Learning (ICML21), PMLR 139:1550-1560,
+	2021.
+	</li>
+    </ul>
+
+
+    <hr />
+    <h2>Learning directed acyclic graphs (DAGs)</h2>
+
+    <p>When there are latent variables (see project above) learning
+	causal models is particularly hard. If there are no latent
+	variables the problem is easier and so there has been more
+      progress. Nonetheless finding the 'best' directed acyclic graph
+	(DAG) to explain some data is an NP-hard problem so it remains
+      an active area of research.</p>
+
+    <p>I have been using <em>integer programming</em> to attack this
+      problem using a system called <a href="https://bitbucket.org/jamescussens/gobnilp/src/master/">GOBNILP</a>,
+    which <a href="usinggobnilp.html">has been used by many other
+    researchers</a>. GOBNILP is built on top of the <a href="https://scipopt.org">SCIP constraint
+	integer programming system</a>.(A <a href="https://bitbucket.org/jamescussens/pygobnilp/src/master/">Python version</a> has also
+    been developed.)  </p>
+
+        <h4>References</h4>
+    <ul>
+     	<li>James
+	Cussens. <a href="https://openreview.net/pdf?id=cZK80bf781S">
+	Branch-Price-and-Cut for Causal Discovery</a> Proc. 2nd Conference on Causal Learning and Reasoning (CLeaR 2023), PMLR, 2023.
+	</li>
+	<li>
+	  James Cussens, Matti Järvisalo, Janne H Korhonen and Mark
+	  Bartlett. <a href="https://www.jair.org/index.php/jair/article/download/11041/26213/">Bayesian
+	  network structure learning with integer programming:
+	  Polytopes, facets and complexity</a> Journal of Artificial
+	  Intelligence Research 58:185-229, 2017.
+	</li>
+	<li>
+    James Cussens.
+    <a href="https://arxiv.org/ftp/arxiv/papers/1202/1202.3713.pdf">Bayesian
+	network learning with cutting planes</a>. Proc. 27th Conference on
+	Uncertainty in Artificial Intelligence (UAI 2011), 2011.
+  </li>
+    </ul>
+
+
+    
+    <hr />
+    
+  </body>
+</html>
