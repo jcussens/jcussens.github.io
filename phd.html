@@ -8,31 +8,8 @@
   
   <body>
 
-    <h3>Suggested PhD topics</h3>
+    <h3>James Cussens: Suggested PhD topics</h3>
     
-    <hr />
-    <h2>Combinatorial optimisation in machine learning</h2>
-    <p> There is a growing interest in methods which combine solving
-combinatorial optimisation (CO) problems and machine learning. In some
-cases machine learning is used to learn the best strategies for
-to solving an NP-hard problem. In other cases, CO methods (e.g. integer
-linear programming (ILP)) are used to solve hard machine learning
-problems. In yet another combination CO solvers have been included as
-a layer in a deep learning architecture. The goal of this project is
-to explore this area further to allow further fruitful cross-fertilisation.
- </p>
-
-    <h4>References</h4>
-    <ul>
-      <li><a href="https://sites.google.com/usc.edu/cpaior-2022/master_class">Bridging
-	  the Gap between Machine Learning and Optimization</a>
-      </li>
-            <li>Bertsimas and
-		Dunn. <a href="https://www.dynamic-ideas.com/books/machine-learning-under-a-modern-optimization-lens">
-		Machine Learning under a Modern Optimization Lens</a>,
-		Dynamic Ideas, 2019.
-      </li>
-    </ul>
 
       <hr />
       <h2>Learning causal models with latent variables</h2>
@@ -97,12 +74,32 @@ to explore this area further to allow further fruitful cross-fertilisation.
       an active area of research.</p>
 
     <p>I have been using <em>integer programming</em> to attack this
-      problem using a system called <a href="https://bitbucket.org/jamescussens/gobnilp/src/master/">GOBNILP</a>,
-    which <a href="usinggobnilp.html">has been used by many other
-    researchers</a>. GOBNILP is built on top of the <a href="https://scipopt.org">SCIP constraint
-	integer programming system</a>.(A <a href="https://bitbucket.org/jamescussens/pygobnilp/src/master/">Python version</a> has also
-    been developed.)  </p>
+      problem using a system
+      called <a href="https://bitbucket.org/jamescussens/gobnilp/src/master/">GOBNILP</a>,
+      which <a href="usinggobnilp.html">has been used by many other
+      researchers</a>. GOBNILP is built on top of
+      the <a href="https://scipopt.org">SCIP constraint integer
+      programming
+      system</a>.(A <a href="https://bitbucket.org/jamescussens/pygobnilp/src/master/">Python
+      version</a> has also been developed.)  The basic idea of this
+      approach is to encode the problem of learning a DAG as a
+      constrained optimisation problem that a solver like SCIP
+      (suitably extended) can solve. This has the advantage that
+      constraints representing prior knowledge (e.g. variable A
+      must/mustn't be a cause of variable B) can be incorporated
+      reasonably easily.
+    </p>
 
+    <p>Since DAG learning is NP-hard there is always work to be done,
+    e.g. increasing the size of learning problem where we can
+    (reliably) find an optimal DAG in reasonable time, or handling
+    user-supplied constraints more efficiently. The goal of this project is
+    apply ideas from constraint and integer programming to DAG
+    learning. This will suit someone who likes being able to apply
+    theoretical ideas (from e.g. polyhedral geometry, see 2nd
+    reference below) to design more
+      efficient machine learning software.</p>
+    
         <h4>References</h4>
     <ul>
      	<li>James
@@ -126,6 +123,43 @@ to explore this area further to allow further fruitful cross-fertilisation.
 
 
     
+
+
+    <hr />
+    <h2>Combinatorial optimisation in machine learning</h2>
+    <p> There is a growing interest in methods which combine solving
+combinatorial optimisation (CO) problems and machine learning. In some
+cases machine learning is used to learn the best strategies for
+to solving an NP-hard problem. In other cases, CO methods (e.g. integer
+linear programming (ILP)) are used to solve hard machine learning
+problems. In yet another combination CO solvers have been included as
+a layer in a deep learning architecture. The goal of this project is
+to explore this area further to allow further fruitful cross-fertilisation.
+ </p>
+
+    <h4>References</h4>
+    <ul>
+      <li>
+	Quentin Cappart, Didier Chételat, Elias B. Khalil, Andrea
+	Lodi, Christopher Morris and Petar
+	Velickovic. <a href="https://www.jmlr.org/papers/v24/21-0449.html">Combinatorial
+	Optimization and Reasoning with Graph Neural Networks</a>
+	Journal of Machine Learning Research 24(130):1-61, 2023
+      </li>
+      <li><a href="https://sites.google.com/usc.edu/cpaior-2022/master_class">Bridging
+	  the Gap between Machine Learning and Optimization</a>
+      </li>
+      <li>
+	Dimitris Bertsimas and Jack
+	Dunn. <a href="https://www.mit.edu/~dbertsim/papers/Machine%20Learning%20under%20a%20Modern%20Optimization%20Lens/Optimal_classification_trees_MachineLearning.pdf">Optimal
+	  classification trees</a> Machine Learning 106:1039-1082, 2017 
+      </li>
+      <li>Claudio Gambella, Bissan Ghaddar and Joe
+      Naoum-Sawaya. <a href="https://www.sciencedirect.com/science/article/abs/pii/S037722172030758X">Optimization
+      problems for machine learning: A survey</a>, European Journal of
+      Operational Research 290(3):807-828, 2021.
+      </li>
+    </ul>
     <hr />
     
   </body>
