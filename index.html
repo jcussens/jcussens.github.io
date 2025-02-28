@@ -345,6 +345,8 @@ Inductive Logic Programming and Mercury (MSc by Research)
 
     Software</h4>
 
+    <h5>GOBNILP</h5>
+    
     <p>Use the following links to get the C/SCIP and
       Python/Gurobi versions of GOBNILP, respectively:</p>
     
@@ -393,6 +395,8 @@ Inductive Logic Programming and Mercury (MSc by Research)
       </li>
     </ul>
 
+    <h5>PYADTREE</h5>
+    
     When learning Bayesian networks from discrete data it is important
     to construct contingency tables quickly. AD-trees were introduced
     by Moore and Lee to do this
@@ -406,11 +410,32 @@ Inductive Logic Programming and Mercury (MSc by Research)
     about 600 times faster than using the <code>groupby.count()</code>
     method from <code>pandas</code> and about 2500 times faster than
     simply traversing the data in Python. If <code>adtree</code> is
-    available pygobnilp uses it to speed up its computation.
+    available the (most recent version of the) Python version of
+    GOBNILP uses it to speed up its computation, although sometimes
+    the speedup is modest.
 
     <ul>
       <a href="https://bitbucket.org/jamescussens/pyadtree">Python module for fast construction of contingency tables using AD-trees</a>
     </ul>
+
+    <h5>FASTPOLICYTREE</h5>
+
+
+    <code>fastpolicytree</code> is an R package which aims to do the
+    same job (constructing optimal policy trees) as the existing
+    policytree R package, but faster. A source package, as well as
+    Windows and MacOS binary packages are available. It is also
+    possible to create a standalone executable (as long as you have a
+    C compiler).
+
+    <ul>
+      <a href="https://github.com/jcussens/tailoring">fastpolicytree
+      github repo</a>
+    </ul>
+
+    <code>fastpolicytree</code> was developed as part of the project <a href="https://gtr.ukri.org/projects?ref=MR%2FT04487X%2F1"> Tailoring health policies to improve outcomes using machine learning, causal inference and operations research methods</a> <strong>01/07/20-30/06/23</strong>. Funded by
+	MRC.
+
     
     <hr />
 
