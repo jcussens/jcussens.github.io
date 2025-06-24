@@ -363,7 +363,8 @@ Inductive Logic Programming and Mercury (MSc by Research)
 
     <h5>GOBNILP</h5>
     
-    <p>Use the following links to get the C/SCIP and
+    <p>GOBNILP learns Bayesian network structure by encoding the
+      problem as an integer program. Use the following links to get the C/SCIP and
       Python/Gurobi versions of GOBNILP, respectively:</p>
     
     <ul>
@@ -411,6 +412,26 @@ Inductive Logic Programming and Mercury (MSc by Research)
       </li>
     </ul>
 
+    <h5>FASTPOLICYTREE</h5>
+
+
+    <code>fastpolicytree</code> is an R
+      package <a href="https://cran.r-project.org/package=fastpolicytree">available
+      on CRAN</a> which aims to do the same job (constructing optimal
+      policy trees) as the
+      existing <a href="https://cran.r-project.org/package=policytree">policytree
+      R package</a>, but faster. The source code
+      is <a href="https://github.com/jcussens/tailoring">available on
+      github</a>. It is also possible to
+      create a standalone executable (as long as you have a C
+      compiler).
+      See <a href="https://github.com/jcussens/tailoring#creating-a-standalone-executable">
+      here</a> for information on how to do this.
+
+    <code>fastpolicytree</code> was developed as part of the project <a href="https://gtr.ukri.org/projects?ref=MR%2FT04487X%2F1"> Tailoring health policies to improve outcomes using machine learning, causal inference and operations research methods</a> <strong>01/07/20-30/06/23</strong>. Funded by
+	MRC
+.
+    
     <h5>PYADTREE</h5>
     
     When learning Bayesian networks from discrete data it is important
@@ -434,23 +455,6 @@ Inductive Logic Programming and Mercury (MSc by Research)
       <a href="https://bitbucket.org/jamescussens/pyadtree">Python module for fast construction of contingency tables using AD-trees</a>
     </ul>
 
-    <h5>FASTPOLICYTREE</h5>
-
-
-    <code>fastpolicytree</code> is an R package which aims to do the
-    same job (constructing optimal policy trees) as the existing
-    policytree R package, but faster. A source package, as well as
-    Windows and MacOS binary packages are available. It is also
-    possible to create a standalone executable (as long as you have a
-    C compiler).
-
-    <ul>
-      <a href="https://github.com/jcussens/tailoring">fastpolicytree
-      github repo</a>
-    </ul>
-
-    <code>fastpolicytree</code> was developed as part of the project <a href="https://gtr.ukri.org/projects?ref=MR%2FT04487X%2F1"> Tailoring health policies to improve outcomes using machine learning, causal inference and operations research methods</a> <strong>01/07/20-30/06/23</strong>. Funded by
-	MRC.
 
     
     <hr />
